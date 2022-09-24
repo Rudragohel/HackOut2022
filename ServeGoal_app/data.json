@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "course_name": "Introduction to Data Sciecne",
+      "created_by": "Rav Ahuja",
+      "img_url": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_Data_Science.jpg",
+      "num": "70477",
+      "platform_name": "Coursera",
+      "url": "https://www.coursera.org/specializations/introduction-data-science"
+    },
+    {
+      "course_name": "The Data Science Course 2022",
+      "created_by": "365 Carrers Team",
+      "img_url": "https://logicmojo.com/assets/dist/new_pages/images/datasci.jpg",
+      "num": "528106",
+      "platform_name": "Udemy",
+      "url": "https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/"
+    },
+    {
+      "course_name": "Python Basics for Data Science",
+      "created_by": "Joseph Santarcangelo",
+      "img_url": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_Data_Science.jpg",
+      "num": "548890",
+      "platform_name": "edX",
+      "url": "https://www.edx.org/course/python-basics-for-data-science?index=product&queryID=685bc02216725aa58f104084246bd919&position=1"
+    }
+  ]
+}

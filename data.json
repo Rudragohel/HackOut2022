@@ -1,0 +1,80 @@
+{
+  "Data Science": [
+    {
+      "course_name": "Introduction to Data Sciecne",
+      "created_by": "Rav Ahuja",
+      "img_url": "https://www.datasciencecentral.com/wp-content/uploads/2021/10/5751664455-1.png",
+      "num": "70477",
+      "platform_name": "Coursera",
+      "url": "https://www.coursera.org/specializations/introduction-data-science"
+    },
+    {
+      "course_name": "The Data Science Course 2022",
+      "created_by": "365 Carrers Team",
+      "img_url": "https://logicmojo.com/assets/dist/new_pages/images/datasci.jpg",
+      "num": "528106",
+      "platform_name": "Udemy",
+      "url": "https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/"
+    },
+    {
+      "course_name": "Python Basics for Data Science",
+      "created_by": "Joseph Santarcangelo",
+      "img_url": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_Data_Science.jpg",
+      "num": "548890",
+      "platform_name": "edX",
+      "url": "https://www.edx.org/course/python-basics-for-data-science?index=product&queryID=685bc02216725aa58f104084246bd919&position=1"
+    }
+  ],
+  "Artificial Intelligence": [
+    {
+      "course_name": "Introduction to Artificial Intelligence",
+      "created_by": "Rav Ahuja",
+      "img_url": "https://assets.spe.org/dims4/default/eb14dec/2147483647/strip/true/crop/1024x757+0+0/resize/800x591!/quality/90/?url=http%3A%2F%2Fspe-brightspot.s3.amazonaws.com%2Ff4%2Fad%2F61fb2ee84edb8b836770aa794b5c%2Ftwa-2021-12-ai-basics.jpg",
+      "num": "179104",
+      "platform_name": "Coursera",
+      "url": "https://www.coursera.org/learn/introduction-to-ai"
+    },
+    {
+      "course_name": "Artificial Intelligence (ARS): Build the Most Powerful AI",
+      "created_by": "Kirill Eremenko",
+      "img_url": "https://www.analyticsinsight.net/wp-content/uploads/2021/10/Artificial-Intelligence-2.jpg",
+      "num": "9122",
+      "platform_name": "Udemy",
+      "url": "https://www.udemy.com/course/artificial-intelligence-ars/"
+    },
+    {
+      "course_name": "Google AI for Anyone",
+      "created_by": "Laurence Moroney",
+      "img_url": "https://infotipsnews.com/wp-content/uploads/2022/08/artificial-intelligence-technology.jpg",
+      "num": "8725",
+      "platform_name": "edX",
+      "url": "https://www.edx.org/course/google-ai-for-anyone?index=product&queryID=566fabf97969d0e29699819928bb8484&position=2"
+    }
+  ],
+  "Machine Learning": [
+    {
+      "course_name": "Machine Learning for All",
+      "created_by": "Prof Marco Gillies",
+      "img_url": "https://miro.medium.com/max/1400/1*c_fiB-YgbnMl6nntYGBMHQ.jpeg",
+      "num": "125259",
+      "platform_name": "Coursera",
+      "url": "https://www.coursera.org/learn/uol-machine-learning-for-all"
+    },
+    {
+      "course_name": "Machine Learning and Deep Learning Bootcamp in Python",
+      "created_by": "Holczer Balazs",
+      "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnQj6Sxzi51i_aO1HYlUVeX7TbIsBmZfeGj63TOHMJxDh9xKDwEetvxwf2SaJLEQ1HasQ&usqp=CAU",
+      "num": "10274",
+      "platform_name": "Udemy",
+      "url": "https://www.udemy.com/course/introduction-to-machine-learning-in-python/"
+    },
+    {
+      "course_name": "Machine Learning with Python: A Practical Introduction",
+      "created_by": "Saeed Aghabozorgi",
+      "img_url": "https://blog.b2bstack.com.br/wp-content/uploads/2022/02/machine-learning-banner.jpg",
+      "num": "127692",
+      "platform_name": "edX",
+      "url": "https://www.edx.org/course/machine-learning-with-python-a-practical-introduct?index=product&queryID=92b0c4dceac6790aad741c326153a5b9&position=2"
+    }
+  ]
+}

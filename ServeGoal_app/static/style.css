@@ -138,3 +138,72 @@ button:hover {
   height: 100%;
   border-radius: 25px;
 }
+
+.topics div:hover {
+  cursor: pointer;
+  box-shadow: 0 6px 26px 0 rgba(255, 255, 255, 0.6);
+}
+.topics div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.user {
+  color: #58d68d;
+  padding: auto;
+}
+
+.list {
+  background-color: black;
+  align-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.course {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin: auto;
+
+  /* height: 150px; */
+  width: 50%;
+  background-color: #58d68d;
+}
+
+.first {
+  align-items: center;
+  margin: auto;
+}
+
+.second {
+  padding-left: 20px;
+}
+
+.first img {
+  margin: 0px;
+  height: 200px;
+  width: 300px;
+}
+
+.second h1 {
+  margin: 0%;
+  padding: 8px 0px;
+}
+.name {
+  font-size: 28px;
+}
+
+.author {
+  font-size: 20px;
+}
+
+.viewer {
+  font-size: 18px;
+}
+
+.platform {
+  font-size: 28px;
+}

@@ -28,7 +28,7 @@
       </div>
 
       <div class="right">
-        <h3 class="about">About</h3>
+        <h3 class="about" onclick="location.href='about'">About</h3>
 {#        <button class="login" onclick="location.href='login '">Login</button>#}
 {#        <button class="signin">Sign Up</button>#}
           {% if LoginSuccess %}
@@ -50,38 +50,60 @@
         alt=""
       /> -->
     </div>
-
+    <form action="/display_results" method="POST">
+        {% csrf_token %}
     <div class="main_search">
-      <input class="search" type="text" placeholder="Search for Courses..." />
+      <input class="search" id="search" type="text" name="query" placeholder="Search for Courses..." />
       <button type="submit">Search <i class="fa fa-search"></i></button>
     </div>
+    </form>
 
     <div class="trending">
       <h1>Trending Topics</h1>
       <hr />
       <div class="topics">
-        <div>
+        <div onclick="document.getElementById('search').value='Data Science'">
           <h2 class="data c1">Data Science</h2>
           <img
             src="https://thumbs.dreamstime.com/b/creative-forex-chart-wallpaper-glowing-grid-invest-trade-concept-d-rendering-146635433.jpg"
             alt=""
           />
         </div>
-        <div>
+        <div onclick="document.getElementById('search').value='Machine Learning'">
           <h2 class="data c2">Machine Learning</h2>
           <img
             src="https://thedatacompany.com/wp-content/uploads/2020/06/June-Blog-1500x960.jpg"
             alt=""
           />
         </div>
-        <div>
+        <div onclick="document.getElementById('search').value='Artificial Intelligence'">
           <h2 class="data c3">Artificial Inteligence</h2>
           <img
             src="https://2h2fxj2oochv47z6ig3v0sve-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/Hologram-of-a-head-with-icons-linked-together-surrounding-it-to-depict-artificial-intelligence-1210x423.jpg"
             alt=""
           />
         </div>
+
       </div>
+
     </div>
+    {% for course in courses %}
+        <div class="list">
+          <div class="course">
+            <div class="first">
+              <img
+                src="{{ course.img_url }}".
+                alt=""
+              />
+            </div>
+            <div class="second">
+              <h1 class="name">{{ course.course_name }}</h1>
+              <h1 class="platform">{{ course.platform_name }}</h1>
+              <h1 class="author"><span>By </span> {{ course.created_by }}</h1>
+              <h1 class="viewer"><span>No. of students enrolled: </span> {{ course.num }}</h1>
+            </div>
+          </div>
+    </div>
+    {% endfor %}
   </body>
 </html>

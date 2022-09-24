@@ -25,6 +25,8 @@ urlpatterns = [
     path('user_creation', views.verify_user, name='user_verify_page'),
     path('register', views.display_register, name='user_register_page'),
     path('user_register', views.create_user, name='user_creation_page'),
+    path('display_results', views.display_query, name='display_results_page'),
+    path('about', views.about, name='about_page'),
 
 ]
 urlpatterns += staticfiles_urlpatterns()

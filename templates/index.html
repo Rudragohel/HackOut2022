@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ServeGoal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap"
+      rel="stylesheet"
+    />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+  </head>
+
+  <body>
+    <header>
+      <div class="left">
+        <img src="{% static 'logo.jpeg' %}" alt="Logo" />
+        <h1 class="servegoal">ServeGoal</h1>
+      </div>
+
+      <div class="right">
+        <h3 class="about">About</h3>
+{#        <button class="login" onclick="location.href='login '">Login</button>#}
+{#        <button class="signin">Sign Up</button>#}
+          {% if LoginSuccess %}
+            <div class="user">
+                {{ name }}
+            </div>
+          {% endif %}
+         {% if not LoginSuccess%}
+            <button class="login" onclick="location.href='login'">Login</button>
+            <button class="signin" onclick="location.href='register'">Sign Up</button>
+          {% endif %}
+      </div>
+    </header>
+
+    <div class="div_quote">
+      <h1 class="quote">take your first Shot to the Goal</h1>
+      <!-- <img
+        src="https://www.epubor.com/images/uppic/best-online-learning-platform.png"
+        alt=""
+      /> -->
+    </div>
+
+    <div class="main_search">
+      <input class="search" type="text" placeholder="Search for Courses..." />
+      <button type="submit">Search <i class="fa fa-search"></i></button>
+    </div>
+
+    <div class="trending">
+      <h1>Trending Topics</h1>
+      <hr />
+      <div class="topics">
+        <div>
+          <h2 class="data c1">Data Science</h2>
+          <img
+            src="https://thumbs.dreamstime.com/b/creative-forex-chart-wallpaper-glowing-grid-invest-trade-concept-d-rendering-146635433.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <h2 class="data c2">Machine Learning</h2>
+          <img
+            src="https://thedatacompany.com/wp-content/uploads/2020/06/June-Blog-1500x960.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <h2 class="data c3">Artificial Inteligence</h2>
+          <img
+            src="https://2h2fxj2oochv47z6ig3v0sve-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/Hologram-of-a-head-with-icons-linked-together-surrounding-it-to-depict-artificial-intelligence-1210x423.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
